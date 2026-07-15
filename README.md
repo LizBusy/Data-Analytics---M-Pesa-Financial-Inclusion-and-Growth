@@ -6,6 +6,7 @@ This project explores how M-Pesa's growth tracks with financial inclusion across
 
 In 2024, KES 8.7 trillion moved through Kenya's mobile money agents- 53% of the country's entire GDP. But that's a national number and it hides a real gap: inclusion isn't even across Kenya's 47 counties. Some, like Nairobi and Kiambu are saturated; others lag far behind. 
 Growing up in Kenya using M-Pesa, this isn't just a dataset, it's a lived experience. Kenya is a reference case the rest of the world poitnts to for mobile money and financial inclusion and I want to go past the headline number and actually show where that growth reached people and where it didn't.  
+
 This project builds an automated pipeline that pulls 18 years of Central Bank data(2007-present), the FinAccess county-level survey and World Bank economic indicators transitioning into a data driven narrative by building an automated pipeline that ingests, cleans, tests and models public financial data into interactive, geospatial county by county insights.
 
 **Problem Statement**
