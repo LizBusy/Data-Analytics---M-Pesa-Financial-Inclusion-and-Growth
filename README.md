@@ -24,65 +24,9 @@ Has mobile money's growth in Kenya actually closed the financial inclusion gap, 
 **Architecture**
 
 
+<img width="891" height="262" alt="Architecture drawio" src="https://github.com/user-attachments/assets/3b98dbc4-1a12-46c9-b6c7-1a7b3eee0669" />
 
-[Uploadin<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="sGXEQiTs38_PxsY-nEmu">
-    <mxGraphModel dx="774" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2cEXos8URo4YvycPx09E-31" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2cEXos8URo4YvycPx09E-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Central Bank of Kenya" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-10" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2cEXos8URo4YvycPx09E-9" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="CBK FinAccess Survey" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-26" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2cEXos8URo4YvycPx09E-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="World Bank API" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-16" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2cEXos8URo4YvycPx09E-15" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Cloud Storage&lt;br&gt;&lt;div&gt;BigQuery&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="200" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-18" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2cEXos8URo4YvycPx09E-17" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="BigQuery:&lt;div&gt;Raw_Data&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-20" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2cEXos8URo4YvycPx09E-19" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-17" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;BigQuery:&lt;/div&gt;&lt;div&gt;Staging&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="90" x="520" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-22" edge="1" parent="1" source="2cEXos8URo4YvycPx09E-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="BigQuery:&lt;div&gt;Analytics&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="650" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="2cEXos8URo4YvycPx09E-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Looker Studio Dashboard" vertex="1">
-          <mxGeometry height="60" width="120" x="810" y="180" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
-g Architecture (1).drawio…]()
+
 
 **Data Sources**
 
